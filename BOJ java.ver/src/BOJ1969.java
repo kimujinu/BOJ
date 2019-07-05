@@ -36,7 +36,7 @@ public class BOJ1969 {
 				}
 			}
 			max = Math.max(a>t?a:t,g>c?g:c);
-			totaldistance += n-max;
+			totaldistance += (n-max);
 			if(max==a) {
 				System.out.print("A");
 			}else if(max==t) {
