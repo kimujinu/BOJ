@@ -27,9 +27,7 @@ public class BOJ2675 {
 			}
 		}
 		for(int i=0;i<t;i++) {
-			
 		System.out.println(array[i]);
-			
 		}
 		
 		
