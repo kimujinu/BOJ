@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class BOJ10798 {
 	Scanner scan = new Scanner(System.in);
 	
-
 	public static void main(String[] args) {
 		BOJ10798 Main = new BOJ10798();
 		Main.start();
