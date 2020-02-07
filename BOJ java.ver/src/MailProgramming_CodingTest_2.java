@@ -14,7 +14,7 @@ public class MailProgramming_CodingTest_2 {
 	}
 		  
 	public void solve() {
-		int N = 12;
+		int N =	scan.nextInt();
 		int[] array = new int[N+1];
 		int result = 0;
 		array[0]=0;
