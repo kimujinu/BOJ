@@ -20,7 +20,6 @@ public class MailProgramming_CodingTest_4 {
 		  
 	public void solve() throws NumberFormatException, IOException {
 		int input = Integer.parseInt(in.readLine());
-		boolean result = false;
 		int temp = input;
 		int temp2 = 0;
 		while(temp!=0) {
@@ -30,10 +29,9 @@ public class MailProgramming_CodingTest_4 {
 		}
 		temp2 = temp2 / 10;
 		if(temp2!=input || input<0) {
-			System.out.println(result);
+			System.out.println("False");
 		}else{
-			result = true;
-			System.out.println(result);
+			System.out.println("True");
 		}
 	}
 }
