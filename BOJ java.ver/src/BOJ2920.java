@@ -20,9 +20,9 @@ public class BOJ2920 {
 			array[i] = scan.nextInt();
 		}
 		for(int i=0;i<array.length-1;i++) {
-			if(array[i]==array[i+1]-1) {
+			if(array[i]<array[i+1]) {
 				result ="ascending";
-			}else if(array[i]==array[i+1]+1) {
+			}else if(array[i]>array[i+1]) {
 				result ="descending";
 			}else {
 				result ="mixed";
