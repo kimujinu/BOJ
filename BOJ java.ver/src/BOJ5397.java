@@ -10,7 +10,7 @@ public class BOJ5397 {
 		// TODO Auto-generated method stub
 		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 		
-		int n = in.read();
+		int n = Integer.parseInt(in.readLine());
 		
 		
 		for(int i=0;i<n;i++) {
