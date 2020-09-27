@@ -14,9 +14,7 @@ public class BOJ1712 {
 		int A = Integer.parseInt(st.nextToken());
 		int B = Integer.parseInt(st.nextToken());
 		int C = Integer.parseInt(st.nextToken());
-		
-		int result = 0;
-		
+				
 		if(B>=C) {
 			System.out.print(-1);
 		}else {
