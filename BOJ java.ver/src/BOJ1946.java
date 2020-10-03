@@ -28,7 +28,7 @@ public class BOJ1946 {
 					pivot = array[i];
 				}
 			}
-			System.out.print(count);
+			System.out.println(count);
 		}
 	}
 
