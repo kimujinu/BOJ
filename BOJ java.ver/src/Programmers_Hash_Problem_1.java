@@ -8,10 +8,12 @@ public class Programmers_Hash_Problem_1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 코딩테스트 - 완주하지 못한 선수
-		
+		String[] participant = {"mislav", "stanko", "mislav", "ana"};
+		String[] completion = {"stanko", "ana", "mislav"};
+		System.out.print(solution(participant,completion));
 	}
 	
-	public String solution(String[] participant, String[] completion) {
+	public static String solution(String[] participant, String[] completion) {
 	    String answer = "";
 		HashMap<String,Integer> map = new HashMap<>();
 		//1. 해시맵에 참여자 정보 입력
