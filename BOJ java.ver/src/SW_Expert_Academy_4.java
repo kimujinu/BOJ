@@ -11,7 +11,7 @@ public class SW_Expert_Academy_4 {
 	}
 	public static void solve() throws FileNotFoundException {
 		Scanner scan =new Scanner(new File("input4.txt"));
-		for(int TC=1;TC<=10;TC++) {
+		while(scan.hasNext()) {
 			int T = scan.nextInt();
 			int array[][] = new int[100][100];
 			int tempmax = 0;
@@ -55,7 +55,7 @@ public class SW_Expert_Academy_4 {
 				max = tempmax;
 			}
 			
-			System.out.println("#"+TC+" "+max);
+			System.out.println("#"+T+" "+max);
 		}
 	}
 }
